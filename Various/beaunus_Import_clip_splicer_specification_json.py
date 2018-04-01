@@ -514,7 +514,7 @@ def render_file(filename, path, name, reaper_media_track, length, mute):
         if name is None:
             name = ""
         render_empty_midi_item(name + " MISSING " + filename,
-                               reaper_media_track, 10)
+                               reaper_media_track, 1)
         add_file_to_missing_file_list(filename, reaper_media_track)
 
 
